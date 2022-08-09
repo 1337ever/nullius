@@ -1,0 +1,25 @@
+#nav{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+#navlinks{
+	width: 90px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+#nav > a:visited{
+	color: #b38357;
+}
+#nav > a:hover{
+	color: #e0ad7e;
+}
+#site-title{
+}
+#link-home{
+}
+#link-about{
+}

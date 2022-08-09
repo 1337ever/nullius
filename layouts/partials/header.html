@@ -1,0 +1,14 @@
+<link rel="stylesheet" type="text/css" href="/css/nav.css">
+<div id="nav">
+	{{ with .Site.Params.site_logo }}
+	<a id="site-title" href="/">{{ partial "svg" $.Site.Params.site_logo }}</a>
+	{{ end }}
+	<div id="navlinks">
+		<a id="link-articles" href="/posts/index.html">index</a>
+		<a id="link-about" href="/about">about</a>
+	</div>
+</div>
+{{ if eq .Params.type "post" }}
+<br>
+<br>
+{{ end }}

@@ -1,0 +1,12 @@
+name = "Nullius"
+license = "GPLv3"
+licenselink = "https://github.com/1337ever/nullius/blob/main/LICENSE"
+description = ""
+homepage = "http://anticartography.net/about"
+tags = []
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Ever Gold"
+  homepage = ""

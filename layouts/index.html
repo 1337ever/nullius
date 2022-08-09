@@ -1,0 +1,8 @@
+{{ partial "head.html" }}
+{{ partial "header.html" }}
+{{ range ( where .Site.RegularPages "Section" "posts" | first 1 ) }}
+<script type="text/javascript">
+	//redirect front page to latest article
+	window.location = "{{ .Site.BaseURL }}{{ .File.Dir }}"
+</script>
+{{ end }}

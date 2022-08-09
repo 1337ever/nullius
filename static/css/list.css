@@ -1,0 +1,7 @@
+.index {
+	text-align: center;
+	margin-top: 40px;
+}
+.index > ul { 
+	list-style-type: none;
+}
