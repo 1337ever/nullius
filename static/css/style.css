@@ -35,7 +35,6 @@ a:active:not(.headlink){
 	color: #a35905; 
 }
 figure{
-	border: 1px solid #e0e0e0;
 	padding: 6px;
 	max-width: 600px;
 	margin-left: auto;
