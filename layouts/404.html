@@ -1,5 +1,14 @@
 {{ partial "head.html" }}
 {{ partial "header.html" }}
+<a href="{{ $.Permalink }}">{{ partial "svg" $.Site.Params.permalink }}</a>
+<style>
+#ca {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+} 
+</style>
 {{ with .Site.Params.fourohfour }}
-	{{ partial "svg" $.Site.Params.fourohfour }}
+<div id="ca">{{ partial "svg" $.Site.Params.fourohfour }}</div>
 {{ end }}
