@@ -2,6 +2,10 @@
     font-family: "Averia Serif";
     src: url("../fonts/AveriaSerif-Regular.ttf")
 }
+@font-face {
+    font-family: "Averia Serif Light";
+    src: url("../fonts/AveriaSerif-Light.ttf")
+}
 body{
 	line-height: 1.2;
 	font-size: 18px;
@@ -52,7 +56,7 @@ img{
 figcaption{
 	padding: 2px;
 	font-style: italic;
-    font-family: "Averia Serif", Times, serif;
+    font-family: "Averia Serif Light", Times, serif;
 }
 .footnotes > hr{
 	color: #e0e0e0;
