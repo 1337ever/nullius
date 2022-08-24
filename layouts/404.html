@@ -1,6 +1,4 @@
 {{ partial "head.html" }}
-{{ partial "header.html" }}
-<a href="{{ $.Permalink }}">{{ partial "svg" $.Site.Params.permalink }}</a>
 <style>
 #ca {
 	display: flex;
@@ -10,5 +8,5 @@
 } 
 </style>
 {{ with .Site.Params.fourohfour }}
-<div id="ca">{{ partial "svg" $.Site.Params.fourohfour }}</div>
+<a id="ca" href="/">{{ partial "svg" $.Site.Params.fourohfour }}</a>
 {{ end }}
