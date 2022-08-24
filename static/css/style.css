@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Averia Serif";
-    src: url("fonts/AveriaSerif-Regular.ttf")
+    src: url("../fonts/AveriaSerif-Regular.ttf")
 }
 body{
 	line-height: 1.2;
