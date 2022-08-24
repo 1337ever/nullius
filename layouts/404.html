@@ -1,0 +1,5 @@
+{{ partial "head.html" }}
+{{ partial "header.html" }}
+{{ with .Site.Params.fourohfour }}
+	{{ partial "svg" $.Site.Params.site_logo }}
+{{ end }}
