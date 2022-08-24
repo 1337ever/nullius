@@ -18,13 +18,13 @@ body{
 }
 h1,h2,h3{
 	line-height: 1;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Averia Serif", Times, serif;
 }
 h1{
 	font-size: 36px;
 }
 article{
-	font-family: "Georgia", Times, serif;
+	font-family: "Times New Roman", Times, serif;
 }
 a:link:not(.headlink){
 	color: #b38357;
@@ -52,6 +52,7 @@ img{
 figcaption{
 	padding: 2px;
 	font-style: italic;
+    font-family: "Averia Serif", Times, serif;
 }
 .footnotes > hr{
 	color: #e0e0e0;
