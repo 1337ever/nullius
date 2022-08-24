@@ -11,7 +11,7 @@ body{
 	font-size: 18px;
 	color: #e0e0e0;
 	background-color: #131417;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Averia Serif Light", Times, serif;
 }
 #articletitle {
 	font-size: 48px;
@@ -28,7 +28,7 @@ h1{
 	font-size: 36px;
 }
 article{
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Averia Serif Light", Times, serif;
 }
 a:link:not(.headlink){
 	color: #b38357;
