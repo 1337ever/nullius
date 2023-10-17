@@ -6,7 +6,7 @@
 	flex-flow: column;
 }
 #navlinks{
-	width: 105px;
+	width: 110px;
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
