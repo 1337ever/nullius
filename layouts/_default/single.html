@@ -2,9 +2,6 @@
 {{ if eq .Params.type "post" }}
 <h1 id="articletitle">{{ .Title }}</h1>
 <h2 id="articleauthor">{{ .Params.author }}</h2>
-{{ with .Site.Params.permalink }}
-<a href="{{ $.Permalink }}">{{ partial "svg" $.Site.Params.permalink }}</a>
-{{ end }}
 {{ with .Site.Params.divider }}
 	<img src="{{ relURL . }}">
 {{end}}
